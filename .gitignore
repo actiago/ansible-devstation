@@ -1,0 +1,9 @@
+# Ignore Ansible temporary files
+*.retry
+# Ignore log files
+*.log
+# Ignore secrets
+secrets.yml
+# Ignore virtual environments
+venv/
+
