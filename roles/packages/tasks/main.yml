@@ -1,0 +1,40 @@
+- name: Instalar pacotes essenciais
+  package:
+    name:
+      - git
+      - curl
+      - neovim
+      - htop
+      - zsh
+      - ansible
+      - fail2ban
+      - iftop
+      - figlet
+      - gopass
+      - keepassxc
+      - lynx
+      - masscan
+      - ncdu
+      - nmap
+      - neofetch
+      - newsboat
+      - openssl
+      - podman
+      - python3-pip
+      - restic
+      - strace
+      - sl
+      - tig
+      - xclip
+      - tilix
+      - tmux
+      - zsh
+      - whois
+      - ifstat
+      - mtr
+      - jq
+      - make
+      - tree
+      - nginx
+    state: present
+

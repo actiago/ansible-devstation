@@ -1,0 +1,8 @@
+- name: Provisionar Desktop Linux
+  hosts: local
+  become: true
+  roles:
+    - role: packages
+      tags: packages
+    - role: dotfiles
+      tags: dotfiles
