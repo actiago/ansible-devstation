@@ -38,3 +38,8 @@
       - nginx
     state: present
 
+- name: Instala Python Virtual Env Wrapper
+  become: true
+  pip:
+    name: virtualenvwrapper
+    executable: pip3
